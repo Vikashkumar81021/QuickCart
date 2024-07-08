@@ -2,14 +2,14 @@ import React from 'react'
 import "./Footer.css"
 import footerlogo from "../assets/logo_big.png"
 import instalogo from "../assets/instagram_icon.png"
-import pintrest from "../assets/pintrest_icon.png"
-import whatsApplogo from "../assets/whatsApp_icon.png"
+import pintrest from "../assets/pintester_icon.png"
+import whatsApplogo from "../assets/whatsapp_icon.png"
 const Footer = () => {
   return (
     <div className='footer'>
       <div className="footer-logo">
   <img src={footerlogo} alt="" />
-  <p>QuickShop</p>
+  <p>QuickCart</p>
       </div>
       <ul className="footer-links">
         <li>Company</li>
